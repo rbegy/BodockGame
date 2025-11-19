@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Destructable
+  - Enemy
   - CannonBall
   layers:
   - Default

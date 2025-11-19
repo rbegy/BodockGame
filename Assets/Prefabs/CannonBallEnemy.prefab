@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 2251758686902552269}
   - component: {fileID: 968493895476731854}
   - component: {fileID: 7965934997716353246}
-  - component: {fileID: 6415143303104362009}
-  - component: {fileID: 8014372013453001579}
+  - component: {fileID: -1974900870843568316}
+  - component: {fileID: -8867870354172655845}
   m_Layer: 0
   m_Name: CannonBallEnemy
   m_TagString: CannonBall
@@ -117,7 +117,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -150,7 +150,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &6415143303104362009
+--- !u!114 &-1974900870843568316
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -165,7 +165,7 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
---- !u!114 &8014372013453001579
+--- !u!114 &-8867870354172655845
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -180,4 +180,4 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: cc4529340562c2244b6ecb79f1c9a9e9, type: 2}
+    - {fileID: 11400000, guid: abed17fe9cbc3404f86476c606fa73ef, type: 2}
